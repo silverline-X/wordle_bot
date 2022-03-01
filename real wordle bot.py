@@ -36,8 +36,6 @@ def guess(guess_word, possible_ans):
             possible_ans = yellow_box(guess_word[index], index, possible_ans)
         elif color == 'w':
             possible_ans = grey_box(guess_word[index], possible_ans)
-        print(possible_answer)
-        print(len(possible_ans))
     return possible_ans
 
 
